@@ -22,11 +22,13 @@
    	Scanner in = new Scanner(System.in);  //creates a Scanner object in
 
    	//sample code for loop priming
-	System.out.print("Enter a number (0 to stop): ");
-  	input = in.nextInt();
+	
   
 	//add loop here
-
+	do {
+		System.out.print("Enter a number (0 to stop): ");
+  		input = in.nextInt();
+	} while (input != 0);
 
 
 	
